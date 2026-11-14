@@ -1,0 +1,14 @@
+{
+  "name": "threads-profile-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Get follower count, bio, verified status and recent posts for a list of Threads (threads.com) usernames or profile links. No login needed.",
+  "scripts": {
+    "start": "node example.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0"
+  },
+  "license": "MIT"
+}
