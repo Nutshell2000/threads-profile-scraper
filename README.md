@@ -1,6 +1,6 @@
 # Threads Profile Scraper: followers, bio and recent posts
 
-Get follower count, bio, verified status and recent posts for a list of Threads (threads.com) usernames or profile links. No login needed.
+Get followers, bio, links and recent posts with likes, replies, reposts and quotes, plus engagement rate, for a list of Threads (threads.com) usernames or profile links. No login needed.
 
 This repo is a working example of calling the [Threads Profile Scraper](https://apify.com/spellzcode/threads-profile-data) Apify actor from Node.js, Python, or without code. The actor runs on Apify's cloud; you pay per result and Apify's free plan includes $5 of monthly credit.
 
@@ -109,11 +109,11 @@ All fields are described on the actor's **Input** tab.
 
 ## Price
 
-$3 per 1,000 profiles returned; missing accounts are free. Apify's paid plans get 10% to 30% off. Each run also has Apify's standard $0.00005 start charge.
+$2 per 1,000 profiles returned; missing accounts are free. Apify's paid plans get 10% to 30% off. Each run also has Apify's standard $0.00005 start charge.
 
 ## Limits
 
-- Reads what Threads shows logged-out visitors, so likes and dates on recent posts can be empty.
+- Returns the posts the public profile shows (usually 4 to 6), not the full history.
 
 ## More tools
 
